@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+
+  font-family: 'Fredoka', sans-serif;
+  color:#ffffff
+}
+
+.homeTitle{
+  font-size: 36px;
+}
+
+.topHome{
+  background-color: #120A22;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+
+.row{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.col{
+  flex-direction: column;
+  display: flex;
+}
+
+.button{
+  background-color: #251657;
+  padding: 30px;
+  border-radius: 10%;
+}
+
+.imgTop{
+  width:70%;
+  height:70%;
+}
+
+.space{
+  padding: 15px;
+}
+
+.title{
+  font-weight: 500;
+  font-size: 36px;
+  text-align: left;
+}
+
+.menu{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  gap: 26.9rem;  
+  text-align: left;
+  font-weight:600;
+}
+
+.title-menu{
+  margin-left: 12%;
+}
+
+
+.menu-right{
+  flex-direction: row;
+  display: inline-flex;
+  align-items: center;
+  text-align: left;
+  gap:5rem;
+}
+
+.top-buttons{
+  flex-direction: row;
+  display: inline-flex;
+  align-items: center;
+  gap:10%;
+}
+
+.read-the-docs {
+  color: #888;
+}

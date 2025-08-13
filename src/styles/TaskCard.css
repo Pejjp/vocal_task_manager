@@ -1,0 +1,70 @@
+
+.task-card {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Fredoka', sans-serif;
+    gap: 10rem;
+    margin: 10px;
+    
+    text-align: center;
+
+    background-color:#251657;
+    border-radius: 32px;
+    }
+
+
+.task-title{
+    text-align: left;
+    width: 300px;
+    font-size:28px;
+}
+
+.sub-title{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #180E3B;
+}
+
+.sub-row{
+    text-align: left;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap:3.5rem;
+    font-size: 18px;
+}
+
+.due-date{
+    width: 75%;
+}
+
+.status{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 0em;
+    width: 35%;
+    margin: 0px;
+}
+
+.task-icon{
+    width:30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.menu-icon{
+    width:18px;
+    height: 18px;
+    margin-right: 3px;
+}
+
+
+.task-icon:hover{
+    background-color: #180E3B;
+}
+
+

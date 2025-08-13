@@ -1,0 +1,69 @@
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .button-save{
+    height: 50%;
+    width: 50%;
+  }
+
+  .button-cancel{
+    height: 50%;
+    width: 50%;
+
+    background-color:#180E3B;
+    color: white;
+    opacity: 90%;
+  }
+
+  .mic{
+    width: 40px;
+  }
+
+  .button-speak{
+    background-color: #180E3B;
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .button-row{
+    flex-direction: row;
+    display:inline-flex;
+    align-items: center;
+    gap: .8em;
+    margin: 10px;
+  }
+
+  .button-add{
+    font-weight: 600;
+    color: #180E3B;
+    margin: 2%;
+    width: 20%;
+    min-width: 70px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .popup {
+    width: 65%;
+    height: auto;
+    background-color: #251657;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+  
+  /* Apply backdrop blur effect */
+  .popup-container {
+    backdrop-filter: blur(5px);
+  }
