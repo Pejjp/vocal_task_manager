@@ -1,4 +1,4 @@
-# React + Vite
+# Vocal Taks Manager
 
 Cette application est une app de création de taches avec option de recording
 vocal. Enregistrer vocalement un tache perment de faciliter la 
