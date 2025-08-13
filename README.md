@@ -1,6 +1,6 @@
 # React + Vite
 
-Cette application est une app de cr/ation de taches avec option
+Cette application est une app de création de taches avec option de recording
 vocal. Enregistrer vocalement un tache perment de faciliter la 
 création de tâches et de le faire "on the go!" lorsqu'on ne peut pas écrire.
 
